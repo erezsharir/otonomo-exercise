@@ -15,4 +15,9 @@ $btn-color: #3ba2ff;
   &:active {
     background-color: darken($btn-color, 10%);
   }
+
+  &:disabled {
+    background-color: lighten($btn-color, 30%);
+    cursor: not-allowed;
+  }
 }
